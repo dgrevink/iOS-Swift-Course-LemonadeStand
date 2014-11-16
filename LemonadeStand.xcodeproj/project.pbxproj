@@ -13,6 +13,7 @@
 		553B1C201A1857E000FF4855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553B1C1F1A1857E000FF4855 /* Images.xcassets */; };
 		553B1C231A1857E000FF4855 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553B1C211A1857E000FF4855 /* LaunchScreen.xib */; };
 		553B1C2F1A1857E000FF4855 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B1C2E1A1857E000FF4855 /* LemonadeStandTests.swift */; };
+		553B1C391A185FE500FF4855 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B1C381A185FE500FF4855 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		553B1C281A1857E000FF4855 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		553B1C2D1A1857E000FF4855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		553B1C2E1A1857E000FF4855 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		553B1C381A185FE500FF4855 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				553B1C181A1857E000FF4855 /* AppDelegate.swift */,
 				553B1C1A1A1857E000FF4855 /* ViewController.swift */,
+				553B1C381A185FE500FF4855 /* Game.swift */,
 				553B1C1C1A1857E000FF4855 /* Main.storyboard */,
 				553B1C1F1A1857E000FF4855 /* Images.xcassets */,
 				553B1C211A1857E000FF4855 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				553B1C1B1A1857E000FF4855 /* ViewController.swift in Sources */,
+				553B1C391A185FE500FF4855 /* Game.swift in Sources */,
 				553B1C191A1857E000FF4855 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
